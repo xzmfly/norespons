@@ -7,12 +7,13 @@
 			list-style: none;
 		}
 		body{
-			width: 1240px;
+			width: 100%;
 			background-color: #fff;
 		}
 		a{
 			text-decoration: none;
 			transition:0.5s all;
+			color: #000;
 		}
 		.clearflx{
 			clear: both;
@@ -121,10 +122,26 @@
 		.content p{
 			color:  #a4a1a1;
 		}
+		.hot{
+		width: 80%;
+		margin: 0 auto;
+			
+		}
+		.hot ul li{
+			float: left;
+			width: 20%;
+			margin-right:50px ;
+		}
+		.new_title{
+			text-align: center;
+		}
+		
+		.new_img img{width:100% ;}
 		.footer{
 			width: 100%;
 			height: 100px;
 			background: url(../img/bg.jpg)  ;
+			margin-top: 50px;
 		}
 		.footer p{
 			color: #fff;
