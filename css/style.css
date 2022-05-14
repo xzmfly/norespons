@@ -7,8 +7,9 @@
 			list-style: none;
 		}
 		body{
-			width: 100%;
+			width: 1500px;
 			background-color: #fff;
+			margin: 0 auto;
 		}
 		a{
 			text-decoration: none;
@@ -126,6 +127,10 @@
 		width: 80%;
 		margin: 0 auto;
 			
+		}
+		.hot h3{
+			font-size: 30px;
+			margin: 20px 0px;
 		}
 		.hot ul li{
 			float: left;
